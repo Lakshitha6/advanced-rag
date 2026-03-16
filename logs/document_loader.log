@@ -1,0 +1,20 @@
+2026-03-15 18:05:55 | document_loader | INFO     | document_loader.py:36 | DocumentLoader initialized (chunk_size=500, overlap=50)
+2026-03-15 18:05:55 | document_loader | INFO     | document_loader.py:83 | Loading documents from: data/documents (pattern: *.pdf)
+2026-03-15 18:06:10 | document_loader | INFO     | document_loader.py:92 | Loaded 282 document(s) from data/documents
+2026-03-15 18:06:10 | document_loader | INFO     | document_loader.py:110 | Splitting 282 document(s)...
+2026-03-15 18:06:10 | document_loader | INFO     | document_loader.py:114 | Created 1313 chunks from 282 document(s)
+2026-03-15 22:21:50 | document_loader | INFO     | document_loader.py:36 | DocumentLoader initialized (chunk_size=500, overlap=50)
+2026-03-15 22:21:50 | document_loader | INFO     | document_loader.py:83 | Loading documents from: data/documents (pattern: *.pdf)
+2026-03-15 22:22:09 | document_loader | INFO     | document_loader.py:92 | Loaded 282 document(s) from data/documents
+2026-03-15 22:22:09 | document_loader | INFO     | document_loader.py:110 | Splitting 282 document(s)...
+2026-03-15 22:22:09 | document_loader | INFO     | document_loader.py:114 | Created 1313 chunks from 282 document(s)
+2026-03-15 22:34:56 | document_loader | INFO     | document_loader.py:36 | DocumentLoader initialized (chunk_size=500, overlap=50)
+2026-03-15 22:34:56 | document_loader | INFO     | document_loader.py:83 | Loading documents from: data/documents (pattern: *.pdf)
+2026-03-15 22:35:12 | document_loader | INFO     | document_loader.py:92 | Loaded 282 document(s) from data/documents
+2026-03-15 22:35:12 | document_loader | INFO     | document_loader.py:110 | Splitting 282 document(s)...
+2026-03-15 22:35:12 | document_loader | INFO     | document_loader.py:114 | Created 1313 chunks from 282 document(s)
+2026-03-16 07:13:23 | document_loader | INFO     | document_loader.py:36 | DocumentLoader initialized (chunk_size=500, overlap=50)
+2026-03-16 07:13:23 | document_loader | INFO     | document_loader.py:83 | Loading documents from: data/documents (pattern: *.pdf)
+2026-03-16 07:13:39 | document_loader | INFO     | document_loader.py:92 | Loaded 282 document(s) from data/documents
+2026-03-16 07:13:39 | document_loader | INFO     | document_loader.py:110 | Splitting 282 document(s)...
+2026-03-16 07:13:39 | document_loader | INFO     | document_loader.py:114 | Created 1313 chunks from 282 document(s)

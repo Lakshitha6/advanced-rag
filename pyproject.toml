@@ -1,0 +1,32 @@
+[project]
+name = "advanced-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.10",
+    "chromadb>=0.4.0",
+    "sentence-transformers>=2.2.0",
+    "rank-bm25>=0.2.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "pyyaml>=6.0",
+    "pytest>=7.0.0",
+    "langchain-huggingface>=1.2.1",
+    "langchain-chroma>=1.1.0",
+    "pdfplumber>=0.11.9",
+    "langchain-groq>=1.1.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv.workspace]
+members = [
+    ".",
+]
+
+[dependency-groups]
+dev = []

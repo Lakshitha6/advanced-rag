@@ -1,0 +1,6 @@
+2026-03-16 07:26:28 | evaluation_service | INFO     | evaluation_service.py:51 | EvaluationService initialized
+2026-03-16 07:26:30 | evaluation_service | INFO     | evaluation_service.py:72 | Running groundedness evaluation...
+2026-03-16 07:26:30 | evaluation_service | INFO     | evaluation_service.py:89 |  Groundedness check PASSED
+2026-03-16 07:27:22 | evaluation_service | INFO     | evaluation_service.py:51 | EvaluationService initialized
+2026-03-16 07:27:24 | evaluation_service | INFO     | evaluation_service.py:72 | Running groundedness evaluation...
+2026-03-16 07:27:24 | evaluation_service | INFO     | evaluation_service.py:89 |  Groundedness check PASSED

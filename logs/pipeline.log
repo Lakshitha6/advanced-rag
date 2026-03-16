@@ -1,0 +1,26 @@
+2026-03-16 07:26:28 | pipeline | INFO     | pipeline.py:65 | Loaded 1313 documents for retrieval
+2026-03-16 07:26:28 | pipeline | INFO     | pipeline.py:59 | RAGPipeline initialized
+2026-03-16 07:26:28 | pipeline | INFO     | pipeline.py:87 | ============================================================
+2026-03-16 07:26:28 | pipeline | INFO     | pipeline.py:88 | Processing query: 'what are the prompt categories'
+2026-03-16 07:26:28 | pipeline | INFO     | pipeline.py:89 | ============================================================
+2026-03-16 07:26:28 | pipeline | INFO     | pipeline.py:93 | Step 1: Retrieving documents...
+2026-03-16 07:26:29 | pipeline | INFO     | pipeline.py:105 | Retrieved 5 documents. Context length: 2173 chars
+2026-03-16 07:26:29 | pipeline | INFO     | pipeline.py:108 | Step 2: Generating answer...
+2026-03-16 07:26:30 | pipeline | INFO     | pipeline.py:110 | Generated answer: The categories to judge the model on are:
+
+1. Whether the completion succeeded in implementing the a...
+2026-03-16 07:26:30 | pipeline | INFO     | pipeline.py:113 | Step 3: Evaluating groundedness...
+2026-03-16 07:26:30 | pipeline | WARNING  | pipeline.py:122 |   Guardrail triggered: Answer supported by context
+2026-03-16 07:26:30 | pipeline | INFO     | pipeline.py:123 | Returning fallback: 'Answer not in the content.'
+2026-03-16 07:27:22 | pipeline | INFO     | pipeline.py:65 | Loaded 1313 documents for retrieval
+2026-03-16 07:27:22 | pipeline | INFO     | pipeline.py:59 | RAGPipeline initialized
+2026-03-16 07:27:22 | pipeline | INFO     | pipeline.py:87 | ============================================================
+2026-03-16 07:27:22 | pipeline | INFO     | pipeline.py:88 | Processing query: 'what is llm'
+2026-03-16 07:27:22 | pipeline | INFO     | pipeline.py:89 | ============================================================
+2026-03-16 07:27:22 | pipeline | INFO     | pipeline.py:93 | Step 1: Retrieving documents...
+2026-03-16 07:27:23 | pipeline | INFO     | pipeline.py:105 | Retrieved 5 documents. Context length: 1554 chars
+2026-03-16 07:27:23 | pipeline | INFO     | pipeline.py:108 | Step 2: Generating answer...
+2026-03-16 07:27:24 | pipeline | INFO     | pipeline.py:110 | Generated answer: At the most basic level, an LLM is a service that takes a string and returns a string: text in, text...
+2026-03-16 07:27:24 | pipeline | INFO     | pipeline.py:113 | Step 3: Evaluating groundedness...
+2026-03-16 07:27:24 | pipeline | WARNING  | pipeline.py:122 |   Guardrail triggered: Answer supported by context
+2026-03-16 07:27:24 | pipeline | INFO     | pipeline.py:123 | Returning fallback: 'Answer not in the content.'

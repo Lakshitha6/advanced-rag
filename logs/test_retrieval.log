@@ -1,0 +1,108 @@
+2026-03-15 22:23:14 | test_retrieval | INFO     | test_retrieval.py:21 | ============================================================
+2026-03-15 22:23:14 | test_retrieval | INFO     | test_retrieval.py:22 | Testing Retrieval Strategies
+2026-03-15 22:23:14 | test_retrieval | INFO     | test_retrieval.py:23 | ============================================================
+2026-03-15 22:23:15 | test_retrieval | INFO     | test_retrieval.py:56 | 
+============================================================
+2026-03-15 22:23:15 | test_retrieval | INFO     | test_retrieval.py:57 | Query: What is a prompt
+2026-03-15 22:23:15 | test_retrieval | INFO     | test_retrieval.py:58 | ============================================================
+2026-03-15 22:23:15 | test_retrieval | INFO     | test_retrieval.py:61 | 
+[Vector Search Only]
+2026-03-15 22:23:17 | test_retrieval | INFO     | test_retrieval.py:64 |   1. As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:23:17 | test_retrieval | INFO     | test_retrieval.py:64 |   2. As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:23:17 | test_retrieval | INFO     | test_retrieval.py:67 | 
+[Hybrid Search]
+2026-03-15 22:23:17 | test_retrieval | INFO     | test_retrieval.py:70 |   1. As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:23:17 | test_retrieval | INFO     | test_retrieval.py:70 |   2. CHAPTER 6
+Assembling the Prompt
+In the previous chapters, you gathered a wealth of content that will...
+2026-03-15 22:23:17 | test_retrieval | INFO     | test_retrieval.py:73 | 
+[Hybrid + Cross-Encoder Rerank]
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:76 |   1. As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:76 |   2. CHAPTER 6
+Assembling the Prompt
+In the previous chapters, you gathered a wealth of content that will...
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:56 | 
+============================================================
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:57 | Query: How many prompt strategies ?
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:58 | ============================================================
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:61 | 
+[Vector Search Only]
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:64 |   1. As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:64 |   2. As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:67 | 
+[Hybrid Search]
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:70 |   1. As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:70 |   2. prompt engineering
+overfitting, 18
+birth of, 10
+P core lesson of, 251
+definition of term, 2, 11
+PaLM...
+2026-03-15 22:23:18 | test_retrieval | INFO     | test_retrieval.py:73 | 
+[Hybrid + Cross-Encoder Rerank]
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:76 |   1. As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:76 |   2. prompt engineering
+overfitting, 18
+birth of, 10
+P core lesson of, 251
+definition of term, 2, 11
+PaLM...
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:56 | 
+============================================================
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:57 | Query: What is  few shot prompt
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:58 | ============================================================
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:61 | 
+[Vector Search Only]
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:64 |   1. several good examples or can easily make some up, using few-shot prompts is often
+simply easier than...
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:64 |   2. several good examples or can easily make some up, using few-shot prompts is often
+simply easier than...
+2026-03-15 22:23:19 | test_retrieval | INFO     | test_retrieval.py:67 | 
+[Hybrid Search]
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:70 |   1. several good examples or can easily make some up, using few-shot prompts is often
+simply easier than...
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:70 |   2. Few-shot prompting scales poorly with growing context, biases results toward exam‐
+ples, and introdu...
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:73 | 
+[Hybrid + Cross-Encoder Rerank]
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:76 |   1. several good examples or can easily make some up, using few-shot prompts is often
+simply easier than...
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:76 |   2. Few-shot prompting scales poorly with growing context, biases results toward exam‐
+ples, and introdu...
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:56 | 
+============================================================
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:57 | Query: What is chain of thought?
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:58 | ============================================================
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:61 | 
+[Vector Search Only]
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:64 |   1. and it forms the very basis for the first layer of the next minibrain. This thinking
+aloud is the on...
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:64 |   2. and it forms the very basis for the first layer of the next minibrain. This thinking
+aloud is the on...
+2026-03-15 22:23:20 | test_retrieval | INFO     | test_retrieval.py:67 | 
+[Hybrid Search]
+2026-03-15 22:23:21 | test_retrieval | INFO     | test_retrieval.py:70 |   1. and it forms the very basis for the first layer of the next minibrain. This thinking
+aloud is the on...
+2026-03-15 22:23:21 | test_retrieval | INFO     | test_retrieval.py:70 |   2. respond. But since the model has no internal monologue, then the initial yes or no
+will be an intuit...
+2026-03-15 22:23:21 | test_retrieval | INFO     | test_retrieval.py:73 | 
+[Hybrid + Cross-Encoder Rerank]
+2026-03-15 22:23:21 | test_retrieval | INFO     | test_retrieval.py:76 |   1. and it forms the very basis for the first layer of the next minibrain. This thinking
+aloud is the on...
+2026-03-15 22:23:21 | test_retrieval | INFO     | test_retrieval.py:76 |   2. respond. But since the model has no internal monologue, then the initial yes or no
+will be an intuit...
+2026-03-15 22:23:21 | test_retrieval | INFO     | test_retrieval.py:78 | 
+============================================================
+2026-03-15 22:23:21 | test_retrieval | INFO     | test_retrieval.py:79 | Retrieval Testing Complete!
+2026-03-15 22:23:21 | test_retrieval | INFO     | test_retrieval.py:80 | ============================================================
+2026-03-15 22:36:22 | test_retrieval | INFO     | test_retrieval.py:21 | ============================================================
+2026-03-15 22:36:22 | test_retrieval | INFO     | test_retrieval.py:22 | Testing Retrieval Strategies
+2026-03-15 22:36:22 | test_retrieval | INFO     | test_retrieval.py:23 | ============================================================

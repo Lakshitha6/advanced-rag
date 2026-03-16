@@ -1,0 +1,120 @@
+2026-03-15 18:05:55 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 18:05:55 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 18:06:10 | vector_store | INFO     | vector_store.py:72 | Ingesting 1313 documents...
+2026-03-15 18:07:01 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 1313 documents
+2026-03-15 22:21:50 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:21:50 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:22:09 | vector_store | INFO     | vector_store.py:72 | Ingesting 1313 documents...
+2026-03-15 22:22:51 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 1313 documents
+2026-03-15 22:23:14 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:23:14 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:24:55 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:24:55 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:24:55 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:24:55 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:24:55 | vector_store | INFO     | vector_store.py:72 | Ingesting 5 documents...
+2026-03-15 22:24:57 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 5 documents
+2026-03-15 22:24:57 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:24:57 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:24:57 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:24:57 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:24:57 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:24:57 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:24:57 | vector_store | INFO     | vector_store.py:72 | Ingesting 5 documents...
+2026-03-15 22:24:58 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 5 documents
+2026-03-15 22:24:58 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:24:58 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:24:58 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:24:58 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:24:58 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:24:58 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:24:58 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:24:58 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:30:07 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:30:07 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:30:07 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:30:07 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:32:30 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:32:30 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:32:49 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:32:49 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:32:49 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:32:49 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:34:39 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:34:39 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:34:56 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:34:56 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:35:12 | vector_store | INFO     | vector_store.py:72 | Ingesting 1313 documents...
+2026-03-15 22:35:59 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 1313 documents
+2026-03-15 22:36:22 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:36:22 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:38:29 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:38:29 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:38:29 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:38:29 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:43:11 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:43:11 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:43:23 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:43:23 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:43:23 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:43:23 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:43:23 | vector_store | INFO     | vector_store.py:72 | Ingesting 5 documents...
+2026-03-15 22:43:25 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 5 documents
+2026-03-15 22:43:25 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:43:25 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:43:25 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:43:25 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:43:25 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:43:25 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:43:25 | vector_store | INFO     | vector_store.py:72 | Ingesting 5 documents...
+2026-03-15 22:43:26 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 5 documents
+2026-03-15 22:43:26 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:43:26 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:43:26 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:43:26 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:43:26 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:43:26 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:43:26 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:43:26 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:45:59 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:45:59 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:45:59 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:45:59 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:45:59 | vector_store | INFO     | vector_store.py:72 | Ingesting 5 documents...
+2026-03-15 22:46:01 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 5 documents
+2026-03-15 22:46:02 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:46:02 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:46:02 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:46:02 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:46:02 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:46:02 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:46:02 | vector_store | INFO     | vector_store.py:72 | Ingesting 5 documents...
+2026-03-15 22:46:02 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 5 documents
+2026-03-15 22:46:03 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:46:03 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:46:03 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:46:03 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:46:03 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:46:03 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:46:03 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:46:03 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:47:02 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-15 22:47:02 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-15 22:47:02 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:47:02 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-15 22:50:56 | vector_store | WARNING  | vector_store.py:110 | Clearing collection: rag_collection
+2026-03-15 22:50:56 | vector_store | INFO     | vector_store.py:120 | Collection cleared successfully
+2026-03-16 07:13:23 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-16 07:13:23 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-16 07:13:39 | vector_store | INFO     | vector_store.py:72 | Ingesting 1313 documents...
+2026-03-16 07:14:14 | vector_store | INFO     | vector_store.py:77 | Successfully ingested 1313 documents
+2026-03-16 07:17:18 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-16 07:17:18 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-16 07:23:32 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-16 07:23:32 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-16 07:26:27 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-16 07:26:27 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-16 07:27:21 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-16 07:27:21 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection
+2026-03-16 07:30:47 | vector_store | INFO     | vector_store.py:53 | VectorStore initialized at: data\chroma_db
+2026-03-16 07:30:47 | vector_store | INFO     | vector_store.py:54 | Collection: rag_collection

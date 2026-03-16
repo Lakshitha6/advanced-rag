@@ -1,0 +1,16 @@
+2026-03-15 22:23:14 | llm_service | INFO     | llm_service.py:60 | Creating LLM: provider=groq, model=llama-3.1-8b-instant
+2026-03-15 22:23:15 | llm_service | INFO     | llm_service.py:44 | LLM initialized: llama-3.1-8b-instant
+2026-03-15 22:36:22 | llm_service | INFO     | llm_service.py:60 | Creating LLM: provider=groq, model=llama-3.1-8b-instant
+2026-03-15 22:36:23 | llm_service | INFO     | llm_service.py:44 | LLM initialized: llama-3.1-8b-instant
+2026-03-16 07:17:18 | llm_service | INFO     | llm_service.py:60 | Creating LLM: provider=groq, model=llama-3.1-8b-instant
+2026-03-16 07:17:18 | llm_service | INFO     | llm_service.py:44 | LLM initialized: llama-3.1-8b-instant
+2026-03-16 07:23:32 | llm_service | INFO     | llm_service.py:60 | Creating LLM: provider=groq, model=llama-3.1-8b-instant
+2026-03-16 07:23:33 | llm_service | INFO     | llm_service.py:44 | LLM initialized: llama-3.1-8b-instant
+2026-03-16 07:26:27 | llm_service | INFO     | llm_service.py:60 | Creating LLM: provider=groq, model=llama-3.1-8b-instant
+2026-03-16 07:26:27 | llm_service | INFO     | llm_service.py:44 | LLM initialized: llama-3.1-8b-instant
+2026-03-16 07:26:29 | llm_service | INFO     | llm_service.py:112 | Generating answer for query: 'what are the prompt categories...'
+2026-03-16 07:27:21 | llm_service | INFO     | llm_service.py:60 | Creating LLM: provider=groq, model=llama-3.1-8b-instant
+2026-03-16 07:27:22 | llm_service | INFO     | llm_service.py:44 | LLM initialized: llama-3.1-8b-instant
+2026-03-16 07:27:23 | llm_service | INFO     | llm_service.py:112 | Generating answer for query: 'what is llm...'
+2026-03-16 07:30:47 | llm_service | INFO     | llm_service.py:60 | Creating LLM: provider=groq, model=llama-3.1-8b-instant
+2026-03-16 07:30:48 | llm_service | INFO     | llm_service.py:44 | LLM initialized: llama-3.1-8b-instant

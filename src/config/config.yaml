@@ -1,0 +1,30 @@
+# config.yaml
+llm:
+  provider: "groq"
+  model: "llama-3.1-8b-instant"
+  temperature: 0.0
+  max_tokens: 1024
+
+embedding:
+  provider: "huggingface_inference" # huggingface_local
+  model: "sentence-transformers/all-mpnet-base-v2"
+  dimensions: 768
+
+retrieval:
+  top_k: 5
+  rerank_top_k: 10
+  use_hybrid: true
+  use_cross_encoder: true
+
+reranker:
+  model: "BAAI/bge-reranker-v2-m3"
+  device: "cpu"
+
+evaluation:
+  groundedness_threshold: 0.7
+  fallback_message: "Answer not in the content."
+
+vector_store:
+  type: "chroma"
+  persist_directory: "./data/chroma_db"
+  collection_name: "rag_collection"

@@ -1,0 +1,6 @@
+2026-03-14 16:33:05 | test_phase1 | INFO     | test_phase1.py:10 | Starting Phase 1 verification...
+2026-03-14 16:33:05 | test_phase1 | INFO     | test_phase1.py:14 | ✅ Config Loaded Successfully
+2026-03-14 16:33:05 | test_phase1 | INFO     | test_phase1.py:15 |    LLM Model: llama-3.1-8b-instant
+2026-03-14 16:33:05 | test_phase1 | INFO     | test_phase1.py:16 |    Embedding Model: sentence-transformers/all-mpnet-base-v2
+2026-03-14 16:33:05 | test_phase1 | INFO     | test_phase1.py:17 |    Top K: 5
+2026-03-14 16:33:05 | test_phase1 | INFO     | test_phase1.py:18 |    Fallback Message: Answer not in the content.

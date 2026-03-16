@@ -1,0 +1,98 @@
+2026-03-15 18:05:55 | ingest | INFO     | ingest.py:19 | ==================================================
+2026-03-15 18:05:55 | ingest | INFO     | ingest.py:20 | Starting Document Ingestion Pipeline
+2026-03-15 18:05:55 | ingest | INFO     | ingest.py:21 | ==================================================
+2026-03-15 18:05:55 | ingest | INFO     | ingest.py:41 | Loading documents from: data/documents
+2026-03-15 18:07:01 | ingest | INFO     | ingest.py:58 | Total documents in store: 2626
+2026-03-15 18:07:01 | ingest | INFO     | ingest.py:61 | ==================================================
+2026-03-15 18:07:01 | ingest | INFO     | ingest.py:62 | Testing Retrieval
+2026-03-15 18:07:01 | ingest | INFO     | ingest.py:63 | ==================================================
+2026-03-15 18:07:01 | ingest | INFO     | ingest.py:71 | 
+Query: What is a llm
+2026-03-15 18:07:01 | ingest | INFO     | ingest.py:74 |   Result 1: What Are LLMs?
+At the most basic level, an LLM is a service that takes a string and returns a string...
+2026-03-15 18:07:01 | ingest | INFO     | ingest.py:74 |   Result 2: What Are LLMs?
+At the most basic level, an LLM is a service that takes a string and returns a string...
+2026-03-15 18:07:01 | ingest | INFO     | ingest.py:71 | 
+Query: what is prompt
+2026-03-15 18:07:02 | ingest | INFO     | ingest.py:74 |   Result 1: As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 18:07:02 | ingest | INFO     | ingest.py:74 |   Result 2: As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 18:07:02 | ingest | INFO     | ingest.py:76 | ==================================================
+2026-03-15 18:07:02 | ingest | INFO     | ingest.py:77 | Ingestion Complete!
+2026-03-15 18:07:02 | ingest | INFO     | ingest.py:78 | ==================================================
+2026-03-15 22:21:48 | ingest | INFO     | ingest.py:57 | ==================================================
+2026-03-15 22:21:48 | ingest | INFO     | ingest.py:58 | Starting Document Ingestion Pipeline
+2026-03-15 22:21:48 | ingest | INFO     | ingest.py:59 | ==================================================
+2026-03-15 22:21:50 | ingest | INFO     | ingest.py:79 | Loading documents from: data/documents
+2026-03-15 22:22:51 | ingest | INFO     | ingest.py:96 | Total documents in store: 3939
+2026-03-15 22:22:51 | ingest | INFO     | ingest.py:99 | ==================================================
+2026-03-15 22:22:51 | ingest | INFO     | ingest.py:100 | Testing Retrieval
+2026-03-15 22:22:51 | ingest | INFO     | ingest.py:101 | ==================================================
+2026-03-15 22:22:51 | ingest | INFO     | ingest.py:109 | 
+Query: What is a llm
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:112 |   Result 1: What Are LLMs?
+At the most basic level, an LLM is a service that takes a string and returns a string...
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:112 |   Result 2: What Are LLMs?
+At the most basic level, an LLM is a service that takes a string and returns a string...
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:109 | 
+Query: what is prompt
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:112 |   Result 1: As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:112 |   Result 2: As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:114 | ==================================================
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:115 | Ingestion Complete!
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:116 | ==================================================
+2026-03-15 22:22:52 | ingest | INFO     | ingest.py:36 | Saved 1313 documents to data/documents_cache.pkl
+2026-03-15 22:23:15 | ingest | INFO     | ingest.py:52 | Loaded 1313 documents from data/documents_cache.pkl
+2026-03-15 22:34:55 | ingest | INFO     | ingest.py:57 | ==================================================
+2026-03-15 22:34:55 | ingest | INFO     | ingest.py:58 | Starting Document Ingestion Pipeline
+2026-03-15 22:34:55 | ingest | INFO     | ingest.py:59 | ==================================================
+2026-03-15 22:34:56 | ingest | INFO     | ingest.py:79 | Loading documents from: data/documents
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:96 | Total documents in store: 1313
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:99 | ==================================================
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:100 | Testing Retrieval
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:101 | ==================================================
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:109 | 
+Query: What is a llm
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:112 |   Result 1: What Are LLMs?
+At the most basic level, an LLM is a service that takes a string and returns a string...
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:112 |   Result 2: 236 | Chapter 10: Evaluating LLM Applications...
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:109 | 
+Query: what is prompt
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:112 |   Result 1: As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:112 |   Result 2: CHAPTER 6
+Assembling the Prompt
+In the previous chapters, you gathered a wealth of content that will...
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:114 | ==================================================
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:115 | Ingestion Complete!
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:116 | ==================================================
+2026-03-15 22:35:59 | ingest | INFO     | ingest.py:36 | Saved 1313 documents to data/documents_cache.pkl
+2026-03-16 07:13:21 | ingest | INFO     | ingest.py:57 | ==================================================
+2026-03-16 07:13:21 | ingest | INFO     | ingest.py:58 | Starting Document Ingestion Pipeline
+2026-03-16 07:13:21 | ingest | INFO     | ingest.py:59 | ==================================================
+2026-03-16 07:13:23 | ingest | INFO     | ingest.py:79 | Loading documents from: data/documents
+2026-03-16 07:14:14 | ingest | INFO     | ingest.py:96 | Total documents in store: 1313
+2026-03-16 07:14:14 | ingest | INFO     | ingest.py:99 | ==================================================
+2026-03-16 07:14:14 | ingest | INFO     | ingest.py:100 | Testing Retrieval
+2026-03-16 07:14:14 | ingest | INFO     | ingest.py:101 | ==================================================
+2026-03-16 07:14:14 | ingest | INFO     | ingest.py:109 | 
+Query: What is a llm
+2026-03-16 07:14:14 | ingest | INFO     | ingest.py:112 |   Result 1: What Are LLMs?
+At the most basic level, an LLM is a service that takes a string and returns a string...
+2026-03-16 07:14:14 | ingest | INFO     | ingest.py:112 |   Result 2: 236 | Chapter 10: Evaluating LLM Applications...
+2026-03-16 07:14:14 | ingest | INFO     | ingest.py:109 | 
+Query: what is prompt
+2026-03-16 07:14:15 | ingest | INFO     | ingest.py:112 |   Result 1: As discussed in Chapter 5, a prompt consists of elements drawn from dynamic
+context and static instr...
+2026-03-16 07:14:15 | ingest | INFO     | ingest.py:112 |   Result 2: CHAPTER 6
+Assembling the Prompt
+In the previous chapters, you gathered a wealth of content that will...
+2026-03-16 07:14:15 | ingest | INFO     | ingest.py:114 | ==================================================
+2026-03-16 07:14:15 | ingest | INFO     | ingest.py:115 | Ingestion Complete!
+2026-03-16 07:14:15 | ingest | INFO     | ingest.py:116 | ==================================================
+2026-03-16 07:14:15 | ingest | INFO     | ingest.py:36 | Saved 1313 documents to data/documents_cache.pkl
+2026-03-16 07:26:28 | ingest | INFO     | ingest.py:52 | Loaded 1313 documents from data/documents_cache.pkl
+2026-03-16 07:27:22 | ingest | INFO     | ingest.py:52 | Loaded 1313 documents from data/documents_cache.pkl
