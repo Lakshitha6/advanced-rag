@@ -164,6 +164,7 @@ Expected output:
 
 ### 📂 Project Structure
 
+```
 advanced-rag/
 ├── .env                        # Environment variables (API keys)
 ├── .gitignore                  # Git ignore rules
@@ -176,9 +177,9 @@ advanced-rag/
 │   │
 │   ├── config/                 # Configuration management
 │   │   ├── __init__.py
+│   │   ├── config.yaml         # YAML configuration file
 │   │   └── settings.py         # Pydantic settings loader
-│   │├── config.yaml         # YAML configuration file
-│   │   
+│   │
 │   ├── core/                   # Orchestration layer
 │   │   ├── __init__.py
 │   │   └── pipeline.py         # RAGPipeline (main orchestrator)
@@ -202,12 +203,12 @@ advanced-rag/
 │       └── logger.py           # Centralized logging
 │
 ├── tests/                      # Test suite
+│   ├── __init__.py
 │   ├── test_embeddings_service.py
 │   ├── test_vector_store.py
 │   ├── test_retrieval_service.py
 │   ├── test_pipeline.py        # End-to-end pipeline tests
-│   └── test_phase1.py          # Phase 1 integration
-│   └── test_pipeline.py        # End-to-end pipeline tests
+│   └── test_phase1.py          # Phase 1 integration tests
 │
 ├── data/                       # Local data (gitignored)
 │   ├── documents/              # Raw documents for ingestion
@@ -216,7 +217,6 @@ advanced-rag/
 │
 └── logs/                       # Application logs (gitignored)
     └── rag_agent.log
-
 ```
 
 ## 🧪 Testing
