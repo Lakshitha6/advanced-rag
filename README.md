@@ -65,7 +65,7 @@ A production-ready **Retrieval-Augmented Generation (RAG)** system with advanced
 
 ### Prerequisites
 
-- Python 3.13 or higher
+- Python 3.10 or higher
 - `uv` package manager (recommended) or `pip`
 
 ### Quick Start
@@ -85,16 +85,15 @@ uv sync
 pip install -e .
 
 # 4. Set up environment variables
-cp .env.example .env
-# Edit .env and add your API keys
+# Create a .env file in the project root and add your API keys:
+# OPENAI_API_KEY=sk-your-api-key-here
+# GROQ_API_KEY=gsk-your-api-key-here
+# HF_TOKEN=hf-your-huggingface-api-key
+```
 
-# .env
-OPENAI_API_KEY=sk-your-api-key-here
-GROQ_API_KEY=gsk-your-api-key-here  # If using Groq
-HF_TOKEN=hf-your-huggingface-api-key # for download reranker model from huggingface
+## ⚙️ Configuration
 
-⚙️ Configuration
-Edit config.yaml to customize behavior:
+Edit `src/config/config.yaml` to customize behavior:
 # config.yaml
 
 llm:
@@ -127,30 +126,47 @@ vector_store:
   persist_directory: "./data/chroma_db"
   collection_name: "rag_collection"
 
-🚀 Usage
-1. Ingest Documents
-Place your documents in data/documents/ (supports .txt, .pdf, .md):
+```
+
+## 🚀 Usage
+
+### 1. Ingest Documents
+
+Place your documents in `data/documents/` (supports `.txt`, `.pdf`, `.md`):
+
+```bash
 # Run ingestion pipeline
 python -m src.repositories.ingest
+```
 
-2. Run the RAG
+### 2. Run the RAG
+
 Interactive mode:
-### bash
-python src/main.py
 
-3. Test the Guardrail - Query something NOT in your documents:
-python src/main.py "Who is the CEO of Google? "
+```bash
+python src/main.py
+```
+
+### 3. Test the Guardrail
+
+Query something NOT in your documents:
+
+```bash
+python src/main.py "Who is the CEO of Google?"
+```
 
 Expected output:
+
+```
 🔍 Thinking...
 🤖 Agent: Answer not in the content.
+```
 
-### Project Structure
+### 📂 Project Structure
 
 advanced-rag/
 ├── .env                        # Environment variables (API keys)
 ├── .gitignore                  # Git ignore rules
-├── config.yaml                 # Application configuration
 ├── pyproject.toml              # Project dependencies & metadata
 ├── README.md                   # This file
 │
@@ -161,7 +177,8 @@ advanced-rag/
 │   ├── config/                 # Configuration management
 │   │   ├── __init__.py
 │   │   └── settings.py         # Pydantic settings loader
-│   │
+│   │├── config.yaml         # YAML configuration file
+│   │   
 │   ├── core/                   # Orchestration layer
 │   │   ├── __init__.py
 │   │   └── pipeline.py         # RAGPipeline (main orchestrator)
@@ -185,12 +202,11 @@ advanced-rag/
 │       └── logger.py           # Centralized logging
 │
 ├── tests/                      # Test suite
-│   ├── __init__.py
-│   ├── conftest.py             # Pytest fixtures
-│   ├── test_config.py          # Configuration tests
 │   ├── test_embeddings_service.py
 │   ├── test_vector_store.py
 │   ├── test_retrieval_service.py
+│   ├── test_pipeline.py        # End-to-end pipeline tests
+│   └── test_phase1.py          # Phase 1 integration
 │   └── test_pipeline.py        # End-to-end pipeline tests
 │
 ├── data/                       # Local data (gitignored)
@@ -201,7 +217,11 @@ advanced-rag/
 └── logs/                       # Application logs (gitignored)
     └── rag_agent.log
 
-🧪 Testing
+```
+
+## 🧪 Testing
+
+```bash
 # Run full test suite
 pytest tests/ -v
 
@@ -210,19 +230,41 @@ pytest tests/ --cov=src -v
 
 # Run specific test file
 pytest tests/test_pipeline.py -v
+```
 
-📬 Contact
-Project Link: https://github.com/Lakshitha6/advanced-rag
-Issues: Please report bugs via GitHub Issues
-🙏 Acknowledgments
-LangChain - LLM orchestration framework
-LangGraph - Agent workflow engine
-ChromaDB - Vector database
-HuggingFace - Model hosting and transformers
-BAAI - Cross-encoder models
+## 📚 Development Phases
+
+- **Phase 1**: Basic RAG pipeline with BM25 + Vector hybrid search ✅
+- **Phase 2**: Cross-encoder reranking integration ✅
+- **Phase 3**: Groundedness evaluation guardrail ✅
+- **Phase 4**: Production deployment and monitoring (future)
+
+## 🔮 Future Improvements
+
+- [ ] Support for additional vector databases (Pinecone, Weaviate)
+- [ ] Query expansion strategies (HyDE, Multi-query)
+- [ ] Caching layer for repeated queries
+- [ ] Web UI for document management and querying
+- [ ] Metrics and observability dashboard
+- [ ] Support for multimodal documents (images, tables)
+- [ ] Fine-tuned reranker for domain-specific content
+
+## 📬 Contact
+
+- **Project Link**: https://github.com/Lakshitha6/advanced-rag
+- **Issues**: Please report bugs via GitHub Issues
+
+## 🙏 Acknowledgments
+
+- **LangChain** - LLM orchestration framework
+- **ChromaDB** - Vector database and persistence
+- **HuggingFace** - Model hosting and transformers library
+- **BAAI** - Cross-encoder reranker models
+- **RankBM25** - BM25 keyword search implementation
+
 <div align="center">
 
-Built with ❤️ for learning and production
+Built with ❤️ for learning and production  
 ⭐ Star this repo if you find it helpful!
+
 </div>
-```
